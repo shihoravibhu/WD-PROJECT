@@ -1,53 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <ul>
-        <li><a href="p1home.html">Home</a></li>
-        <li><a href="p2culture.html">Culture</a></li>
-        <li><a href="p3landmark.html">Landmark</a></li>
-        <li><a href="p4cuisine.html">Cuisine</a></li>
-        <li><a href="p5contactus.html">Contact Us</a></li>
-      </ul>
+      <li><a href="p1home.html">Home</a></li>
+      <li><a href="p2culture.html">Culture</a></li>
+      <li><a href="p3landmark.html">Landmark</a></li>
+      <li><a href="p4cuisine.html">Cuisine</a></li>
+      <li><a href="p5contactus.html">Contact Us</a></li>
+    </ul>
 
-      <h1>Contact Us</h1>
+    <h1>Contact Us</h1>
 
-      <p>Please fill out the form below for any inquiries or to register as a student.</p>
+    <p>
+      Please fill out the form below for any inquiries or to register as a
+      student.
+    </p>
 
-      <h2>Student Registration Form</h2>
+    <h2>Student Registration Form</h2>
 
-      <table>
+    <table>
+      <tr>
+        <td>
+          <label for="fname">First Name: </label
+          ><input type="text" placeholder="Enter your first name" id="fname" />
+        </td>
+      </tr>
 
-        <tr>
-            <td><label for="fname">First Name:</label></td>
-            <td><input type="text" placeholder="Enter your first name" id="fname"></td>
-        </tr>
+      <tr>
+        <td><br/></td>
+      </tr>
 
-        <tr>
-            <td><label for="pass">Password:</label></td>
-            <td><input type="text" id="pass"></td>
-        </tr>
+      <tr>
+        <td>
+          <label for="pass">Password: </label><input type="text" id="pass" />
+        </td>
+      </tr>
 
-        <tr>
-            <td>Gender:</td>
-            <td><input type="radio" id="m" name="gn"><label for="m">Male</label>
-            <input type="radio" id="f" name="gn"><label for="f">Female</label></td>            
-        </tr>
+      <tr>
+        <td><br/></td>
+      </tr>
 
-        <tr>
-            <td>Subscribe to Newsletter:</td>
-            <td><input type="checkbox"></td>
-        </tr>
+      <tr>
+        <td>
+          Gender: <input type="radio" id="m" name="gn" /><label for="m"
+            >Male</label>
+          <input type="radio" id="f" name="gn" /><label for="f">Female</label>
+        </td>
+      </tr>
 
-        <tr>
-            
-        </tr>
+      <tr>
+        <td><br/></td>
+      </tr>
 
+      <tr>
+        <td>
+          <label for="n">Subscribe to Newsletter: </label
+          ><input type="checkbox" id="n" />
+        </td>
+      </tr>
 
-      </table>
-</body>
+      <tr>
+        <td><br/></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="s">State: </label
+          ><select name="" id="s">
+            <option selected="Select your state" disabled>
+              Select your state
+            </option>
+            <option value="">Gujarat</option>
+            <option value="">Rajasthan</option>
+            <option value="">Maharastra</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><br/></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="fl">Upload Resume: </label><input type="file" id="fl" />
+        </td>
+      </tr>
+
+      <tr>
+        <td><br/></td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="ad">Address: </label
+          ><textarea name="" id="ad" cols="40" rows="4"></textarea>
+        </td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><br/></td>
+      </tr>
+
+      <tr>
+        <td><label for="dt">Date of Birth: </label> <input type="date" id="dt"></td>
+      </tr>
+
+      <tr>
+        <td><br/></td>
+      </tr>
+
+      <tr>
+        <td><label for="tm">Preferred Interview Time: </label><input type="time" name="" id="tm"></td>
+      </tr>
+
+      <tr>
+        <td><br/></td>
+      </tr>
+
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+  </body>
 </html>
